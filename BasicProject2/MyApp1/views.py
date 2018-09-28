@@ -35,6 +35,6 @@ def index(request):
             'title' : "Hello Django",
             'message' : "Hello Django!",
             'content' : " on " + now.strftime("%A, %d %B, %Y at %X"),
-            'content' : " extra crap "
+            'content2' : " extra crap "
         }
     )
