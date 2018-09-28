@@ -38,3 +38,13 @@ def index(request):
             'content2' : " extra crap "
         }
     )
+
+def about(request):
+    return render(
+        request,
+        "MyApp1/about.html",
+        {
+            'title' : "About HelloDjangoApp",
+            'content' : "Example app page for Django."
+        }
+    )

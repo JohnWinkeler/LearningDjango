@@ -21,4 +21,5 @@ urlpatterns = [
     # url(r'^admin/', include(admin.site.urls)),
     url(r'^$', MyApp1.views.index, name='index'),
     url(r'^home$', MyApp1.views.index, name='home'),
+    url(r'^about$', MyApp1.views.about, name='about'),
 ]
