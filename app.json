@@ -1,0 +1,15 @@
+{
+  "name": "LearningDjango",
+  "scripts": {
+  },
+  "env": {
+  },
+  "formation": {
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+
+  ]
+}
